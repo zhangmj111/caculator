@@ -1,0 +1,118 @@
+{
+  "uid" : "f68a6e67a1f198f9",
+  "name" : "test_add[get_data1]",
+  "fullName" : "test_caculator.TestCaculator#test_add",
+  "historyId" : "622c237dde15b5b50522138de7930403",
+  "time" : {
+    "start" : 1609249704680,
+    "stop" : 1609249704682,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1609249704619,
+      "stop" : 1609249704619,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_data",
+    "time" : {
+      "start" : 1609249704678,
+      "stop" : 1609249704678,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_calc::0",
+    "time" : {
+      "start" : 1609249704946,
+      "stop" : 1609249704946,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_data::0",
+    "time" : {
+      "start" : 1609249704685,
+      "stop" : 1609249704685,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_caculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculator"
+  }, {
+    "name" : "host",
+    "value" : "MD0HED5FMW0NSFJ"
+  }, {
+    "name" : "thread",
+    "value" : "28120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_caculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_data",
+    "value" : "{'add': [-2, -3, -5], 'minus': [11, 12, -1], 'multi': [-5, 12, -60], 'divide': [-150, -3, 50]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "f68a6e67a1f198f9.json",
+  "parameterValues" : [ "{'add': [-2, -3, -5], 'minus': [11, 12, -1], 'multi': [-5, 12, -60], 'divide': [-150, -3, 50]}" ]
+}
